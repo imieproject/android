@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FindBugsFilter>
+  <Match>
+    <Class name="~.*\.R\$.*"/>
+  </Match>
+  <Match>
+    <Or>
+    <Package name="~com[.]cronierantoinerobinalexandre[.]imie[.]magendarmerie[.]criterias[.]base([.].*)?" />
+    <Package name="~com[.]cronierantoinerobinalexandre[.]imie[.]magendarmerie[.]data[.]base([.].*)?" />
+    <Package name="~com[.]cronierantoinerobinalexandre[.]imie[.]magendarmerie[.]harmony([.].*)?" />
+    <Package name="~com[.]cronierantoinerobinalexandre[.]imie[.]magendarmerie[.]provider[.]base([.].*)?" />
+    <Package name="~com[.]cronierantoinerobinalexandre[.]imie[.]magendarmerie[.]provider[.]utils[.]base([.].*)?" />
+    <Class name="~com[.]cronierantoinerobinalexandre[.]imie[.]magendarmerie[.]MagendarmerieApplicationBase.java"/>
+    </Or>
+  </Match>
+</FindBugsFilter>
